@@ -74,3 +74,8 @@ console.log(valores[0] + valores[1] + valores[2] + valores[3])
 let tarefas = []
 tarefas.push("arrumar materiais", "louça", "aula guitarra")
 console.log (`1.${tarefas[0]}, 2.${tarefas[1]}, 3.${tarefas[2]}`)
+
+console.log("   ")
+console.log("---------------------------------------------------")
+console.log("   ")
+
