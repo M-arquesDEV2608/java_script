@@ -193,22 +193,19 @@ let falta = 4
 if(nota2 >= 9 && falta <=5){
     console.log("Aprovado com excelência")
 }
-else if(nota2 >= 9){
+else if(nota2 >= 7){
     console.log("Aprovado")
 }
-else if(nota2 >= 9 && falta >=20){
+else if(nota2 >= 7 && falta >=20){
     console.log("Reprovado")
 }
-else if(nota2 === 7 || 8) {
-    console.log("Bom")
+else if(nota2 === 5 || 6.9) {
+    console.log("Reguperação")
 }
-else if(nota2 === 7 || 8 && falta >=20) {
+else if(nota2 === 5 || 6.9 && falta >=20) {
     console.log("Reprovado")
 }
-else if(nota2 === 6) {
-    console.log("Regular")
-}
-else if(nota2 === 6 && falta >=20) {
+else if(nota2 < 5 && falta >=20) {
     console.log("Reprovado")
 }
 else {
