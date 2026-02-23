@@ -32,7 +32,7 @@ console.log(" ")
 console.log("ATIVIDADES")
 console.log(" ")
 
-//Exemplo 01
+//01
 let num = 18
 if (num >= 0){
     console.log("Positivo")
@@ -41,7 +41,7 @@ else {
     console.log("Negativo")
 }
 
-//Exemplo 02
+//02
 let idadE = 18
 if (idadE >= 18){
     console.log("Você é maior de idade!")
@@ -50,7 +50,7 @@ else {
     console.log("Você é menor de idade")
 }
 
-//Exemplo 03
+//03
 let num1 = 7/2
 if(num1 === 0){
     console.log("Par")
@@ -60,7 +60,7 @@ else {
 }
 
 
-//Exemplo 04
+//04
 let notA = 7
 if(notA >= 6){
     console.log("Aprovado! 👏")
@@ -71,7 +71,7 @@ else {
 
 
 
-//Exemplo 05
+//05
 let votar = 18
 if (votar >= 16){
     console.log("pode votar")
@@ -80,7 +80,7 @@ else {
     console.log("não pode votar")
 }
 
-//Exemplo 06
+//06
 let senhA = "1234"
 if (senhA === "1234"){
     console.log("Acesso permitido!")
@@ -89,7 +89,7 @@ else {
     console.log("Senha incorreta")
 }
 
-//Exemplo 07
+//07
 let temp = 25
 if (temp >= 25){
     console.log("Está quente")
@@ -98,7 +98,7 @@ else {
     console.log("Está frio")
 }
 
-//Exemplo 08
+//08
 let altura = 1.70
 if (altura >= 1.50){
     console.log("Pode entrar")
@@ -107,7 +107,7 @@ else {
     console.log("Não pode entrar")
 }
 
-//Exemplo 09
+//09
 let num3 = 18
 if (num3 >= 1){
     console.log("Positivo")
@@ -119,7 +119,7 @@ else {
     console.log("Negativo")
 }
 
-//Exemplo 10
+//10
 let nota1 = 7
 if(nota1 >= 9){
     console.log("Excelente!")
@@ -134,7 +134,7 @@ else {
     console.log("Reprovado!")
 }
 
-//Exemplo 11
+//11
 let cnh = true
 let idade2 = 18
 if (idade2 >= 18 && cnh){
@@ -144,7 +144,7 @@ else {
     console.log("não pode dirigir")
 }
 
-//Exemplo 12
+//12
 let compra = 101
 if (compra > 100){
     console.log("ganhou desconto")
@@ -153,7 +153,7 @@ else {
     console.log("sem desconto")
 }
 
-//Exemplo 13
+//13
 let usuario = "admin"
 let senh = "123"
 if (usuario === "admin" && senh === "123"){
@@ -163,7 +163,7 @@ else {
     console.log("erro de login")
 }
 
-//Exemplo 14
+//14
 let idade3 = 18
 if (idade3 >= 16){
     console.log("Pode assistir")
@@ -172,7 +172,7 @@ else {
     console.log("Não pode assistir")
 }
 
-//Exemplo 15
+//15
 let cor1 = "Verde" && "Amarelo" && "Vermelho" 
 if (cor1 === "Verde"){
     console.log("Pode passar")
@@ -182,4 +182,35 @@ else if (cor1 == "Amarelo" ){
 }
 else if (cor1 === "Vermelho"){
     console.log("Pare")
+}
+
+console.log(" ")
+console.log("Extra")
+console.log(" ")
+//Extra
+let nota2 = 7
+let falta = 4
+if(nota2 >= 9 && falta <=5){
+    console.log("Aprovado com excelência")
+}
+else if(nota2 >= 9){
+    console.log("Aprovado")
+}
+else if(nota2 >= 9 && falta >=20){
+    console.log("Reprovado")
+}
+else if(nota2 === 7 || 8) {
+    console.log("Bom")
+}
+else if(nota2 === 7 || 8 && falta >=20) {
+    console.log("Reprovado")
+}
+else if(nota2 === 6) {
+    console.log("Regular")
+}
+else if(nota2 === 6 && falta >=20) {
+    console.log("Reprovado")
+}
+else {
+    console.log("Reprovado")
 }
