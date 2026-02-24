@@ -144,7 +144,7 @@ contad()
 console.log("//////////////////")
 
 //12
-function conta(){
+function cta(){
     let par = 0
      for (let contar = -1; contar <= 10; contar++) {
         if (contar % 2 === 0) { // Verifica se é par
@@ -154,12 +154,12 @@ function conta(){
   }
 }
 
-conta()
+cta()
 
 console.log("//////////////////")
 
 //13
-function conta(w){
+function cnta(w){
     let tabuada = w
      for (let contar = 1; contar <= 10; contar++) {
         console.log(tabuada * contar)
@@ -167,7 +167,7 @@ function conta(w){
   }
 }
 
-conta(2)
+cnta(2)
 
 
 console.log("//////////////////")
