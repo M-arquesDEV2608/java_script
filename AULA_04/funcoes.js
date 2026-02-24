@@ -146,7 +146,7 @@ console.log("//////////////////")
 //12
 function conta(){
     let par = 0
-     for (let contar = 1; contar <= 10; contar++) {
+     for (let contar = -1; contar <= 10; contar++) {
         if (contar % 2 === 0) { // Verifica se é par
             console.log(contar)
             par++
